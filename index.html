@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/MMmDPXN/lego.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
+    <title>Lego Website</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <div class="page">
+      <!-- Main Content -->
+      <section class="container">
+        <nav class="navbar">
+          <div class="navbar__content">
+            <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="Logo Lego">
+              <ul>
+                <li><a href="/">EXCLUSIVOS</a></li>
+                <li><a href="/">NUEVOS</a></li>
+                <li><a href="/">GIFT CARDS</a></li>
+                <li><a href="/">FIND A STORE</a></li>
+              </ul>
+          </div>
+        </nav>
+
+        <section class="main-content">
+          <p>Diseña tu</p>
+          <h1>Súper Héroe!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, blanditiis quis, repellendus nisi expedita aperiam officia excepturi dignissimos corporis voluptatum ad. Optio sed eveniet, deserunt doloremque accusantium reprehenderit quas est!</p>
+        </section>
+
+        <section class="side-content">
+          <div></div>
+          <p>Superman</p>
+          <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="Superman en Lego">
+        </section>
+
+        <section class="footer">
+          <div id="button1">
+            <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="Spiderman">
+          </div>
+          <div>
+            <img src="https://i.ibb.co/M18p91c/batman.webp" alt="Batman">
+          </div>
+          <div>
+            <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="Robin">
+          </div>
+        </section>
+      </section>
+      <!-- Loader -->
+      <section class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+      </section>
+      <!-- Model -->
+      <section class="modal hidden">
+        <div class="modal__content">
+          <img class="modal__content--close" src="./assets/close-svgrepo-com.svg">
+
+          <div class="modal__content--slider">
+            <input type="radio" name="slider-1" id="radio-1" checked>
+            <input type="radio" name="slider-1" id="radio-2">
+            <input type="radio" name="slider-1" id="radio-3">
+
+            <div class="cards">
+              <label for="radio-1" id="card-1" class="card">
+                <img src="./assets/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="Spiderman1">
+              </label>
+              <label for="radio-2" id="card-2" class="card">
+                <img src="./assets/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="Spiderman2">
+              </label>
+              <label for="radio-3" id="card-3" class="card">
+                <img src="./assets/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="Spiderman3">
+              </label>
+            </div>
+          </div>
+          <div class="modalbutton">
+            <input type="button" value="Lo Quiero!" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="./src/main.js"></script>
+</html>
